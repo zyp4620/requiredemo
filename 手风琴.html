@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		#box,#box1{
+			width:700px;
+			position:relative;
+			height:350px;
+			border:1px solid red;
+			margin:50px auto;
+			overflow:hidden;
+		}
+		#box li,#box1 li{
+			width:700px;
+			height:350px;
+			position:absolute;
+			top:0;
+		}
+	</style>
+	<script src="require.js" data-main="init1.js"></script>
+</head>
+<body>
+	<ul id="box">
+		<li style="background:red;"></li>
+		<li style="background:yellow;"></li>
+		<li style="background:green;"></li>
+		<li style="background:pink;"></li>
+		<li style="background:blue;"></li>
+	</ul>
+
+	<ul id="box1">
+		<li style="background:red;"></li>
+		<li style="background:yellow;"></li>
+		<li style="background:green;"></li>
+		<li style="background:pink;"></li>
+		<li style="background:blue;"></li>
+	</ul>	
+</body>
+</html>
